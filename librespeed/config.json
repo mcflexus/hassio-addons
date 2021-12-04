@@ -30,8 +30,8 @@
   "legacy": "true",
   "image": "ghcr.io/linuxserver/librespeed",
   "options": {
-    "PUID": 0,
-    "PGID": 0
+    "PUID": 1000,
+    "PGID": 1000
   },
   "schema": {
     "PUID": "int",
