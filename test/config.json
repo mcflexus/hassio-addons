@@ -1,0 +1,11 @@
+{
+  "name": "Test",
+  "version": "1",
+  "slug": "test_container",
+  "description": "My test container",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {}
+}
