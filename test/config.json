@@ -1,11 +1,14 @@
 {
   "name": "Test",
-  "version": "1",
+  "version": "0.1",
   "slug": "test_container",
-  "description": "My test container",
+  "description": "My test addon",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "startup": "application",
+  "startup": "before",
   "boot": "auto",
   "options": {},
-  "schema": {}
+  "schema": {},
+  "ports": {
+    "8000/tcp": 8000
+  }
 }
