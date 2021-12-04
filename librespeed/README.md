@@ -18,6 +18,14 @@ This addon takes no configuration except the port number.
 
 Webui can be found at <http://your-ip:PORT>.
 
+you can add the panel by including these lines in your configuration.yaml and change the url.
+```
+panel_iframe:
+  librespeed:
+    title: "LibreSpeed"
+    icon: mdi:gauge-full
+    url: "http://your-server:port"
+```
 ## Installation
 
 ---
