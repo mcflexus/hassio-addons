@@ -1,6 +1,6 @@
 {
   "name": "Librespeed",
-  "version": "5.2.4",
+  "version": "5.2.4-ls81",
   "slug": "librespeed",
   "description": "Librespeed add-on for home assistant, test te speed of your lan",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
