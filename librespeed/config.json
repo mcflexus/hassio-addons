@@ -4,7 +4,7 @@
   "slug": "librespeed",
   "description": "Librespeed add-on for home assistant, test te speed of your lan",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "url": "https://github.com/mcflexus/hassio-addons/librespeed",
+  "url": "https://github.com/mcflexus/hassio-addons",
   "startup": "application",
   "webui": "http://[HOST]:[PORT:80]",
   "boot": "auto",
