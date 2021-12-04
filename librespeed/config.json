@@ -3,8 +3,14 @@
   "version": "5.2.4-ls81",
   "slug": "librespeed",
   "description": "Librespeed add-on for home assistant, test te speed of your lan",
-  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "url": "https://github.com/mcflexus/hassio-addons",
+  "arch": [
+    "armhf", 
+    "armv7", 
+    "aarch64", 
+    "amd64", 
+    "i386"
+  ],
+  "url": "https://github.com/linuxserver/docker-librespeed",
   "startup": "application",
   "webui": "http://[HOST]:[PORT:80]",
   "boot": "auto",
@@ -17,8 +23,18 @@
   "host_network": "false",
   "host_ipc": "true",
   "host_pid": "false",
-  "privileged": ["NET_ADMIN"],
+  "privileged": [
+    "NET_ADMIN"
+  ],
   "realtime": "true",
   "legacy": "true",
-  "image": "ghcr.io/linuxserver/librespeed"
+  "image": "ghcr.io/linuxserver/librespeed",
+  "options": {
+    "PUID": 0,
+    "PGID": 0
+  },
+  "schema": {
+    "PUID": "int",
+    "PGID": "int",
+  }
 }
