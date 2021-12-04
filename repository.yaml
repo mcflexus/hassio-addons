@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: My Home Assistant add-on repository
+name: Mcflexus Home Assistant add-ons
 url: 'https://github.com/mcflexus/hassio-addons'
 maintainer: mcflexus
