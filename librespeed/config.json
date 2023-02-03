@@ -10,7 +10,7 @@
     "amd64", 
     "i386"
   ],
-  "url": "https://github.com/linuxserver/librespeed",
+  "url": "https://github.com/linuxserver/docker-librespeed",
   "startup": "application",
   "webui": "http://[HOST]:[PORT:80]",
   "boot": "auto",
