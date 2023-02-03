@@ -4,7 +4,6 @@
   "slug": "test_container",
   "description": "My test addon",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "startup": "before",
   "boot": "auto",
   "options": {
     "beer": true,
