@@ -36,5 +36,6 @@
   "schema": {
     "PUID": "int",
     "PGID": "int"
-  }
+  },
+  "init": "false"
 }
