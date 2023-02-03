@@ -1,6 +1,6 @@
 {
   "name": "Librespeed",
-  "version": "5.2.5-ls127",
+  "version": "2023.2.1",
   "slug": "librespeed",
   "description": "Librespeed add-on for home assistant, test te speed of your lan",
   "arch": [
@@ -10,7 +10,7 @@
     "amd64", 
     "i386"
   ],
-  "url": "https://github.com/linuxserver/docker-librespeed:5.2.5-ls127",
+  "url": "https://lscr.io/linuxserver/librespeed:5.2.5-ls127",
   "startup": "application",
   "webui": "http://[HOST]:[PORT:80]",
   "boot": "auto",
