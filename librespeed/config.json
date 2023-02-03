@@ -10,7 +10,7 @@
     "amd64", 
     "i386"
   ],
-  "url": "https://lscr.io/linuxserver/librespeed:5.2.5-ls127",
+  "url": "https://github.com/linuxserver/librespeed",
   "startup": "application",
   "webui": "http://[HOST]:[PORT:80]",
   "boot": "auto",
@@ -28,7 +28,7 @@
   ],
   "realtime": "true",
   "legacy": "true",
-  "image": "ghcr.io/linuxserver/librespeed",
+  "image": "lscr.io/linuxserver/librespeed:5.2.5-ls127",
   "options": {
     "PUID": 1000,
     "PGID": 1000
