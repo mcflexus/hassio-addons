@@ -28,7 +28,7 @@
   ],
   "realtime": "true",
   "legacy": "true",
-  "image": "ghcr.io/linuxserver/librespeed",
+  "image": "ghcr.io/linuxserver/docker-librespeed",
   "options": {
     "PUID": 1000,
     "PGID": 1000
