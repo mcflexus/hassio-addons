@@ -1,6 +1,6 @@
 {
   "name": "Librespeed",
-  "version": "2023.2.1",
+  "version": "5.2.5-ls127",
   "slug": "librespeed",
   "description": "Librespeed add-on for home assistant, test te speed of your lan",
   "arch": [
@@ -28,7 +28,7 @@
   ],
   "realtime": "true",
   "legacy": "true",
-  "image": "lscr.io/linuxserver/librespeed:5.2.5-ls127",
+  "image": "lscr.io/linuxserver/librespeed",
   "options": {
     "PUID": 1000,
     "PGID": 1000
